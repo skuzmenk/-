@@ -33,5 +33,9 @@ namespace натисниТАК
             MessageBox.Show("Дякую)))", "Повідомлення", MessageBoxButton.OK, MessageBoxImage.Information);
             Application.Current.Shutdown();
         }
+        protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = true; 
+        }
     }
 }
