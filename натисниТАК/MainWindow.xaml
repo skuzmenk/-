@@ -1,0 +1,12 @@
+﻿<Window x:Class="натисниТАК.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="Чи поставите ви мені підвищені бали?" VerticalAlignment="Top" FontSize="20" Background="#FFCCCCCC"/>
+        <Button Content="Так" HorizontalAlignment="Left" Margin="66,163,0,0" VerticalAlignment="Top" FontSize="20" Width="71"
+        Click="ButtonYes_Click"/>
+        <Button Name="ButtonNo" Content="Ні" HorizontalAlignment="Left" Margin="266,163,0,0" VerticalAlignment="Top" Height="31" Width="70" FontSize="20"
+                MouseEnter="ButtonNo_MouseEnter"/>
+    </Grid>
+</Window>
